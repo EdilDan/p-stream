@@ -1,988 +1,988 @@
-{
+export default {
     "about": {
-        "description": "P-Stream is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. P-Stream runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
-        "faqTitle": "Common questions",
+        "description": "ፒ-ስትሪም (P-Stream) የmovie-web ቅርንጫፍ ሲሆን movie-web.app ከተዘጋ በኋላም እንኳን መስራቱን እንዲቀጥል የተረጋገጠ ነው። ፒ-ስትሪም በግል፣ በራሱ በሚተዳደር VPS ላይ ይሰራል። ይህን ድረ-ገጽ የማስተዳድረው በኪሳራ ነው፤ ነፃ ሚዲያ አምናለሁና ምንም አይነት ማስታወቂያ የለውም።",
+        "faqTitle": "ተደጋጋሚ ጥያቄዎች",
         "q1": {
-            "body": "P-Stream does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by P-Stream, everything is through this searching mechanism.",
-            "title": "Where does the content come from?"
+            "body": "ፒ-ስትሪም ምንም አይነት ይዘት አያስተናግድም። የሆነ ነገር ለመመልከት ሲጫኑ፣ ለተመረጠው ሚዲያ ኢንተርኔት ይፈተሻል (በመጫኛ ማያ ገጹ ላይ እና 'የቪዲዮ ምንጮች' በሚለው ትር ውስጥ የትኛውን ምንጭ እየተጠቀሙ እንደሆነ ማየት ይችላሉ)። ሚዲያ በፒ-ስትሪም በኩል በጭራሽ አይጫንም፤ ሁሉም ነገር በዚህ የፍለጋ ዘዴ በኩል ነው።",
+            "title": "ይዘቱ ከየት ነው የሚመጣው?"
         },
         "q2": {
-            "body": "It's not possible to request a show or movie, P-Stream does not manage any content. All content is viewed through sources on the internet.",
-            "title": "Where can I request a show or movie?"
+            "body": "ፕሮግራም ወይም ፊልም መጠየቅ አይቻልም፤ ፒ-ስትሪም ምንም አይነት ይዘት አያስተዳድርም። ሁሉም ይዘቶች በኢንተርኔት ላይ ባሉ ምንጮች በኩል ይታያሉ።",
+            "title": "ፕሮግራም ወይም ፊልም የት መጠየቅ እችላለሁ?"
         },
         "q3": {
-            "body": "Our search results are powered by The Movie Database (TMDB) and display regardless of whether our sources actually have the content.",
-            "title": "The search results display the show or movie, why can't I play it?"
+            "body": "የፍለጋ ውጤቶቻችን በ The Movie Database (TMDB) የሚደገፉ ሲሆን ምንጮቻችን ይዘቱን ይኑራቸውም አይኑራቸውም ይታያሉ።",
+            "title": "የፍለጋ ውጤቶቹ ፕሮግራሙን ወይም ፊልሙን ያሳያሉ፤ ለምንድነው ማጫወት የማልችለው?"
         },
         "q4": {
-            "body": "All data is synced to the community backend, anyone is free to use this as well.",
-            "title": "What about my data and stuff?"
+            "body": "ሁሉም መረጃዎች ከማህበረሰቡ የኋላ ክፍል (backend) ጋር ይመሳሰላሉ፤ ማንም ሰው ይህን በነፃነት ሊጠቀምበት ይችላል።",
+            "title": "ስለኔ መረጃና ነገሮችስ?"
         },
         "q5": {
-            "body": "P-Stream has a Discord server that can be found at the header of this page!",
-            "title": "How can I find out more?"
+            "body": "ፒ-ስትሪም በዚህ ገጽ ራስጌ ላይ የሚገኝ የዲስኮርድ ሰርቨር አለው!",
+            "title": "የበለጠ እንዴት ማወቅ እችላለሁ?"
         },
-        "title": "About P-Stream (^▽^)"
+        "title": "ስለ ፒ-ስትሪም (^▽^)"
     },
     "actions": {
-        "copied": "Copied",
-        "copy": "Copy"
+        "copied": "ተቀድቷል",
+        "copy": "ቅዳ"
     },
     "auth": {
-        "createAccount": "Don't have an account yet 😬 <0>Create an account.</0>",
-        "deviceNameLabel": "Device name",
-        "deviceNamePlaceholder": "Personal phone",
+        "createAccount": "እስካሁን መለያ የለዎትም? 😬 <0>መለያ ይፍጠሩ።</0>",
+        "deviceNameLabel": "የመሳሪያ ስም",
+        "deviceNamePlaceholder": "የግል ስልክ",
         "generate": {
-            "description": "Your passphrase acts as your username and password. Make sure to keep it safe as you will need to enter it to login to your account. <bold>Do NOT lose your passphrase!</bold>",
-            "next": "I have saved my passphrase",
-            "passphraseFrameLabel": "Passphrase",
-            "title": "Your passphrase"
+            "description": "የይለፍ ሐረግዎ እንደ የተጠቃሚ ስምዎ እና የይለፍ ቃልዎ ያገለግላል። ወደ መለያዎ ለመግባት ስለሚያስፈልግዎ ደህንነቱ በተጠበቀ ቦታ ማስቀመጥዎን ያረጋግጡ። <bold>የይለፍ ሐረግዎን እንዳያጡ!</bold>",
+            "next": "የይለፍ ሐረጌን አስቀምጫለሁ",
+            "passphraseFrameLabel": "የይለፍ ሐረግ",
+            "title": "የእርስዎ የይለፍ ሐረግ"
         },
-        "hasAccount": "Already have an account? <0>Login here.</0>",
+        "hasAccount": "አስቀድመው መለያ አለዎት? <0>እዚህ ይግቡ።</0>",
         "login": {
-            "description": "Please enter your passphrase to login to your account",
-            "deviceLengthError": "Please enter a device name",
-            "passphraseLabel": "12-Word passphrase",
-            "passphrasePlaceholder": "Passphrase",
-            "submit": "Login",
-            "title": "Login to your account",
-            "validationError": "Incorrect or incomplete passphrase /ᐠ. .ᐟ\\"
+            "description": "እባክዎ ወደ መለያዎ ለመግባት የይለፍ ሐረግዎን ያስገቡ",
+            "deviceLengthError": "እባክዎ የመሳሪያ ስም ያስገቡ",
+            "passphraseLabel": "ባለ 12-ቃል የይለፍ ሐረግ",
+            "passphrasePlaceholder": "የይለፍ ሐረግ",
+            "submit": "ግባ",
+            "title": "ወደ መለያዎ ይግቡ",
+            "validationError": "ትክክል ያልሆነ ወይም ያልተሟላ የይለፍ ሐረግ /ᐠ. .ᐟ\\"
         },
         "register": {
             "information": {
-                "color1": "Profile color one",
-                "color2": "Profile color two",
-                "header": "Enter a name for your device then pick colors and a user icon of your choosing!",
-                "icon": "User icon",
-                "next": "Next",
-                "title": "Account information"
+                "color1": "የመገለጫ ቀለም አንድ",
+                "color2": "የመገለጫ ቀለም ሁለት",
+                "header": "ለመሣሪያዎ ስም ያስገቡ ከዚያም የመረጧቸውን ቀለሞች እና የተጠቃሚ አዶ ይምረጡ!",
+                "icon": "የተጠቃሚ አዶ",
+                "next": "ቀጥል",
+                "title": "የመለያ መረጃ"
             }
         },
         "trust": {
             "failed": {
-                "text": "Did you configure it correctly?",
-                "title": "Failed to reach server"
+                "text": "በትክክል አዋቅረውታል?",
+                "title": "ሰርቨሩን ማግኘት አልተቻለም"
             },
-            "noHostTitle": "Server not configured!",
-            "noHost": "The server has not been configured, therefore you cannot create an account",
-            "host": "You are connecting to <0>{{hostname}}</0> - please confirm you trust it before making an account...",
-            "no": "Go back",
-            "title": "Do you trust this server?",
-            "yes": "I trust this server 🤞"
+            "noHostTitle": "ሰርቨር አልተዋቀረም!",
+            "noHost": "ሰርቨሩ ስላልተዋቀረ መለያ መፍጠር አይችሉም",
+            "host": "ከ <0>{{hostname}}</0> ጋር እየተገናኙ ነው - እባክዎ መለያ ከመፍጠርዎ በፊት እንደሚያምኑት ያረጋግጡ...",
+            "no": "ተመለስ",
+            "title": "ይህን ሰርቨር ያምናሉ?",
+            "yes": "ይህን ሰርቨር አምናለሁ 🤞"
         },
         "verify": {
-            "description": "Please enter your passphrase from earlier to confirm you have saved it and to create your account",
-            "invalidData": "Data is not valid",
-            "noMatch": "Passphrase doesn't match 😭",
-            "passphraseLabel": "Your 12-word passphrase",
-            "recaptchaFailed": "ReCaptcha validation failed",
-            "register": "Create account",
-            "title": "Confirm your passphrase"
+            "description": "እባክዎ ማስቀመጥዎን ለማረጋገጥ እና መለያዎን ለመፍጠር ቀደም ሲል ያስገቡትን የይለፍ ሐረግዎን ያስገቡ",
+            "invalidData": "መረጃው ትክክል አይደለም",
+            "noMatch": "የይለፍ ሐረጉ አይዛመድም 😭",
+            "passphraseLabel": "የእርስዎ ባለ 12-ቃል የይለፍ ሐረግ",
+            "recaptchaFailed": "የ ReCaptcha ማረጋገጫ አልተሳካም",
+            "register": "መለያ ፍጠር",
+            "title": "የይለፍ ሐረግዎን ያረጋግጡ"
         }
     },
     "errors": {
-        "badge": "It broke 💀",
-        "details": "Error details",
-        "reloadPage": "Reload the page",
-        "showError": "Show error details",
-        "title": "We encountered an error!"
+        "badge": "ተበላሽቷል 💀",
+        "details": "የስህተት ዝርዝሮች",
+        "reloadPage": "ገጹን እንደገና ይጫኑ",
+        "showError": "የስህተት ዝርዝሮችን አሳይ",
+        "title": "ስህተት አጋጥሞናል!"
     },
     "footer": {
         "legal": {
-            "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
-            "disclaimerText": "Please note: P-Stream does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+            "disclaimer": "የኃላፊነት ማስተባበያ ◝(ᵔᵕᵔ)◜",
+            "disclaimerText": "እባክዎ ልብ ይበሉ፡ ፒ-ስትሪም ምንም አይነት ፋይሎችን በራሱ አያስተናግድም፤ ይልቁንም ከ3ኛ ወገን አቅራቢዎች የሚገኝ ይዘትን ብቻ ያሳያል። የህግ ጉዳዮች ከእነሱ ጋር መታየት አለባቸው።"
         },
         "links": {
-            "discord": "Discord",
+            "discord": "ዲስኮርድ",
             "dmca": "DMCA",
-            "github": "GitHub",
-            "twitter": "Twitter",
-            "funding": "Support us"
+            "github": "ጊትሀብ",
+            "twitter": "ትዊተር",
+            "funding": "ይደግፉን"
         },
-        "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
+        "tagline": "የሚወዷቸውን ፕሮግራሞች እና ፊልሞች ያለማስታወቂያ በነፃ ይመልከቱ! (っ'ヮ'c)"
     },
     "global": {
-        "name": "P-Stream",
+        "name": "ፒ-ስትሪም",
         "pages": {
-            "about": "About",
+            "about": "ስለ",
             "dmca": "DMCA",
-            "discover": "Discover",
-            "support": "Support",
-            "login": "Login",
-            "onboarding": "Setup",
-            "pagetitle": "{{title}} - P-Stream",
-            "register": "Register",
-            "settings": "Settings",
-            "migration": "Migrate Account",
-            "jip": "Jip"
+            "discover": "አዳዲስ ነገሮችን ያግኙ",
+            "support": "ድጋፍ",
+            "login": "ግባ",
+            "onboarding": "ማዋቀር",
+            "pagetitle": "{{title}} - ፒ-ስትሪም",
+            "register": "ይመዝገቡ",
+            "settings": "ቅንብሮች",
+            "migration": "መለያ ማዛወር",
+            "jip": "ጂፕ"
         }
     },
     "home": {
         "bookmarks": {
-            "sectionTitle": "Bookmarks"
+            "sectionTitle": "ዕልባቶች"
         },
         "continueWatching": {
-            "sectionTitle": "Continue Watching..."
+            "sectionTitle": "ማየቱን ይቀጥሉ..."
         },
         "mediaList": {
-            "stopEditing": "Stop editing"
+            "stopEditing": "ማስተካከል አቁም"
         },
         "search": {
-            "allResults": "That's all we have...",
-            "failed": "Failed to find media, try again!",
-            "loading": "Loading...",
-            "noResults": "We couldn't find anything :(",
+            "allResults": "ያለን ይሄ ብቻ ነው...",
+            "failed": "ሚዲያ ማግኘት አልተቻለም፣ እንደገና ይሞክሩ!",
+            "loading": "እየጫነ ነው...",
+            "noResults": "ምንም ነገር ማግኘት አልቻልንም :(",
             "placeholder": {
-                "default": "What do you want to watch?",
+                "default": "ምን ማየት ይፈልጋሉ?",
                 "extra": [
-                    "What are you in the mood for?",
-                    "Should we delete your browser history?",
-                    "What do you want to stream?",
-                    "P-Stream is the best site ever!",
-                    "What's on your watchlist today?",
-                    "How was your day?",
-                    "My bad the site never works...",
-                    "Isn't P-Stream just the best?",
+                    "ምን አይነት ስሜት ላይ ነዎት?",
+                    "የአሳሽ ታሪክዎን እንሰርዝ?",
+                    "ምን ማስተላለፍ (stream) ይፈልጋሉ?",
+                    "ፒ-ስትሪም ምርጡ ድረ-ገጽ ነው!",
+                    "ዛሬ በእይታ ዝርዝርዎ ላይ ምን አለ?",
+                    "ቀንዎ እንዴት ነበር?",
+                    "ይቅርታ ድረ-ገጹ በጭራሽ አይሰራም...",
+                    "ፒ-ስትሪም ምርጥ አይደለም?",
                     ">ᴗ<"
                 ]
             },
             "empty": {
-                "default": "Welcome, find media to watch here!",
+                "default": "እንኳን ደህና መጡ፣ የሚመለከቱትን ሚዲያ እዚህ ያግኙ!",
                 "extra": [
-                    "There's nothing here :(",
-                    "So empty...",
-                    "Such emptiness.",
-                    "Hi new user :3"
+                    "እዚህ ምንም ነገር የለም :(",
+                    "በጣም ባዶ ነው...",
+                    "እንዲህ አይነት ባዶነት።",
+                    "ሰላም አዲስ ተጠቃሚ :3"
                 ]
             },
-            "sectionTitle": "Search results",
-            "discoverMore": "Discover more",
-            "discover": "Discover"
+            "sectionTitle": "የፍለጋ ውጤቶች",
+            "discoverMore": "የበለጠ ያግኙ",
+            "discover": "አዳዲስ ነገሮችን ያግኙ"
         },
         "mediaCard": {
-            "moreInfo": "More Info",
-            "copyLink": "Copy Link",
-            "close": "Close"
+            "moreInfo": "ተጨማሪ መረጃ",
+            "copyLink": "አገናኝ ቅዳ",
+            "close": "ዝጋ"
         },
         "titles": {
             "day": {
-                "default": "What would you like to watch this afternoon?",
+                "default": "ዛሬ ከሰዓት በኋላ ምን ማየት ይፈልጋሉ?",
                 "extra": [
-                    "Viva la P-Stream!"
+                    "ቪቫ ላ ፒ-ስትሪም!"
                 ]
             },
             "morning": {
-                "default": "What would you like to watch this morning?",
+                "default": "ዛሬ ጠዋት ምን ማየት ይፈልጋሉ?",
                 "extra": [
-                    "Viva la P-Stream!"
+                    "ቪቫ ላ ፒ-ስትሪም!"
                 ]
             },
             "night": {
-                "default": "What would you like to watch tonight?",
+                "default": "ዛሬ ማታ ምን ማየት ይፈልጋሉ?",
                 "extra": [
-                    "Viva la P-Stream!"
+                    "ቪቫ ላ ፒ-ስትሪም!"
                 ]
             },
             "420": {
-                "default": "What would you like to watch this 4/20?",
+                "default": "በዚህ 4/20 ምን ማየት ይፈልጋሉ?",
                 "extra": [
-                    "Happy 4/20 🥳!"
+                    "መልካም 4/20 🥳!"
                 ]
             },
             "69": {
-                "default": "Up for something spicy?",
+                "default": "ለትንሽ ቅመም ነገር ዝግጁ ነዎት?",
                 "extra": [
-                    "Happy 69 day 😘!"
+                    "መልካም 69 ቀን 😘!"
                 ]
             }
         }
     },
     "media": {
-        "episodeDisplay": "S{{season}} - E{{episode}}",
-        "unreleased": "Unreleased",
+        "episodeDisplay": "ምዕራፍ {{season}} - ክፍል {{episode}}",
+        "unreleased": "ያልተለቀቀ",
         "types": {
-            "movie": "Movie",
-            "show": "Show"
+            "movie": "ፊልም",
+            "show": "ፕሮግራም"
         },
-        "episodeShort": "E",
-        "seasonShort": "S"
+        "episodeShort": "ክፍል",
+        "seasonShort": "ምዕራፍ"
     },
     "details": {
-        "resume": "Resume",
-        "play": "Play",
-        "director": "Director:",
-        "cast": "Cast:",
-        "runtime": "Runtime:",
-        "language": "Language:",
-        "releaseDate": "Release Date:",
-        "rating": "Rating:",
-        "votes": "votes",
-        "tmdb": "View on TMDB",
-        "imdb": "View on IMDb",
-        "episodes": "Episodes",
-        "season": "Season",
-        "episode": "Episode",
-        "airs": "Airs",
-        "endsAt": "Ends at {{time}}"
+        "resume": "ከቆመበት ቀጥል",
+        "play": "አጫውት",
+        "director": "ዳይሬክተር:",
+        "cast": "ተዋንያን:",
+        "runtime": "የሚፈጀው ጊዜ:",
+        "language": "ቋንቋ:",
+        "releaseDate": "የተለቀቀበት ቀን:",
+        "rating": "ደረጃ:",
+        "votes": "ድምጾች",
+        "tmdb": "በTMDB ላይ ይመልከቱ",
+        "imdb": "በIMDb ላይ ይመልከቱ",
+        "episodes": "ክፍሎች",
+        "season": "ምዕራፍ",
+        "episode": "ክፍል",
+        "airs": "የሚታይበት ጊዜ",
+        "endsAt": "{{time}} ላይ ይጠናቀቃል"
     },
     "migration": {
-        "loginRequired": "You must be logged in to migrate your data! Please go back and login to continue.",
+        "loginRequired": "መረጃዎን ለማዛወር መግባት አለብዎት! እባክዎ ለመቀጠል ተመልሰው ይግቡ።",
         "start": {
-            "title": "Migrate your data",
-            "explainer": "If you wish to migrate or backup your data, you can do so using the options below. This will allow you to keep your data when you switch backend servers.",
+            "title": "መረጃዎን ያዛውሩ",
+            "explainer": "መረጃዎን ማዛወር ወይም ምትኬ ማስቀመጥ ከፈለጉ ከዚህ በታች ያሉትን አማራጮች በመጠቀም ማድረግ ይችላሉ። ይህ የኋላ ክፍል (backend) ሰርቨሮችን ሲቀይሩ መረጃዎን እንዲይዙ ያስችልዎታል።",
             "options": {
-                "or": "or",
+                "or": "ወይም",
                 "direct": {
-                    "description": "This will directly migrate your data to the new server. This is the fastest option. <br /><br />This option allows you to keep your passphrase the same!",
-                    "title": "Direct migration",
-                    "quality": "Easiest and fastest",
-                    "action": "Transfer data"
+                    "description": "ይህ መረጃዎን በቀጥታ ወደ አዲሱ ሰርቨር ያዛውራል። ይህ በጣም ፈጣኑ አማራጭ ነው። <br /><br />ይህ አማራጭ የይለፍ ሐረግዎን እንዳለ እንዲቆይ ያስችልዎታል!",
+                    "title": "ቀጥተኛ ዝውውር",
+                    "quality": "በጣም ቀላል እና ፈጣን",
+                    "action": "መረጃ ያስተላልፉ"
                 },
                 "download": {
-                    "description": "This will download your data to your device. You can then upload it to the new server or just keep it for safekeeping.",
-                    "title": "Download data",
-                    "quality": "More technical",
-                    "action": "Download data"
+                    "description": "ይህ መረጃዎን ወደ መሳሪያዎ ያወርዳል። ከዚያ ወደ አዲሱ ሰርቨር መስቀል ወይም ለደህንነት ሲባል ማስቀመጥ ይችላሉ።",
+                    "title": "መረጃ ያውርዱ",
+                    "quality": "የበለጠ ቴክኒካል",
+                    "action": "መረጃ ያውርዱ"
                 },
                 "upload": {
-                    "title": "Upload Data",
-                    "description": "Upload your previously exported data file to restore your bookmarks and progress on this account.",
-                    "quality": "Restore from backup",
-                    "action": "Upload Data"
+                    "title": "መረጃ ይስቀሉ",
+                    "description": "በዚህ መለያ ላይ ዕልባቶችዎን እና እድገትዎን ወደነበሩበት ለመመለስ ከዚህ ቀደም የወጣውን የመረጃ ፋይልዎን ይስቀሉ።",
+                    "quality": "ከምትኬ ወደነበረበት ይመልሱ",
+                    "action": "መረጃ ይስቀሉ"
                 }
             }
         },
         "direct": {
-            "title": "Direct migration",
-            "description": "Enter the destination backend URL to migrate your current account data to a new backend. This keeps your passphrase the same!",
-            "backendLabel": "Destination Backend URL",
-            "recaptchaLabel": "ReCaptcha Key (Optional)",
-            "toggleLable": "Needs ReCaptcha?",
+            "title": "ቀጥተኛ ዝውውር",
+            "description": "የአሁኑን የመለያ መረጃዎን ወደ አዲስ የኋላ ክፍል (backend) ለማዛወር የመድረሻ የኋላ ክፍል (backend) URL ያስገቡ። ይህ የይለፍ ሐረግዎን እንዳለ ያቆየዋል!",
+            "backendLabel": "የመድረሻ የኋላ ክፍል (Backend) URL",
+            "recaptchaLabel": "ReCaptcha ቁልፍ (አማራጭ)",
+            "toggleLable": "ReCaptcha ያስፈልገዋል?",
             "status": {
-                "error": "Failed to migrate your data. 😿",
-                "success": "Your data has been migrated successfully! 🎉"
+                "error": "መረጃዎን ማዛወር አልተቻለም። 😿",
+                "success": "መረጃዎ በተሳካ ሁኔታ ተዛውሯል! 🎉"
             },
             "button": {
-                "migrate": "Migrate",
-                "processing": "Processing...",
-                "home": "Go home",
-                "login": "Continue to login"
+                "migrate": "አዛውር",
+                "processing": "በሂደት ላይ...",
+                "home": "ወደ መነሻ ገጽ ተመለስ",
+                "login": "ወደ መግቢያ ቀጥል"
             }
         },
         "download": {
-            "title": "Download data",
-            "description": "This will download your data to your device. You can then upload it to the new server or just keep it for safekeeping.",
+            "title": "መረጃ ያውርዱ",
+            "description": "ይህ መረጃዎን ወደ መሳሪያዎ ያወርዳል። ከዚያ ወደ አዲሱ ሰርቨር መስቀል ወይም ለደህንነት ሲባል ማስቀመጥ ይችላሉ።",
             "items": {
-                "description": "Download includes:",
-                "bookmarks": "Bookmarked media",
-                "progress": "Watch progress"
+                "description": "ማውረዱ የሚያካትተው:",
+                "bookmarks": "ዕልባት የተደረገባቸው ሚዲያዎች",
+                "progress": "የእይታ እድገት"
             },
             "status": {
-                "error": "Failed to download your data. 😿",
-                "success": "Your data has been downloaded successfully! 🎉"
+                "error": "መረጃዎን ማውረድ አልተቻለም። 😿",
+                "success": "መረጃዎ በተሳካ ሁኔታ ወርዷል! 🎉"
             },
             "button": {
-                "download": "Download data",
-                "home": "Go home",
-                "login": "Continue to login"
+                "download": "መረጃ ያውርዱ",
+                "home": "ወደ መነሻ ገጽ ተመለስ",
+                "login": "ወደ መግቢያ ቀጥል"
             }
         },
         "upload": {
-            "title": "Upload data",
-            "description": "Upload your previously exported data file to restore your bookmarks and progress on this account.",
+            "title": "መረጃ ይስቀሉ",
+            "description": "በዚህ መለያ ላይ ዕልባቶችዎን እና እድገትዎን ወደነበሩበት ለመመለስ ከዚህ ቀደም የወጣውን የመረጃ ፋይልዎን ይስቀሉ።",
             "status": {
-                "processing": "Processing data...",
-                "error": "Failed to upload your data. 😿",
-                "success": "Your data has been uploaded successfully! 🎉"
+                "processing": "መረጃ በማዘጋጀት ላይ...",
+                "error": "መረጃዎን መስቀል አልተቻለም። 😿",
+                "success": "መረጃዎ በተሳካ ሁኔታ ተሰቅሏል! 🎉"
             },
             "file": {
-                "description": "Select the file you want to upload",
-                "select": "Select file",
-                "change": "Change file",
-                "name": "File name"
+                "description": "ለመስቀል የሚፈልጉትን ፋይል ይምረጡ",
+                "select": "ፋይል ይምረጡ",
+                "change": "ፋይል ይቀይሩ",
+                "name": "የፋይል ስም"
             },
-            "dataPreview": "Preview:",
+            "dataPreview": "ቅድመ እይታ:",
             "items": {
-                "bookmarks": "Bookmarked media",
-                "progress": "Watch progress"
+                "bookmarks": "ዕልባት የተደረገባቸው ሚዲያዎች",
+                "progress": "የእይታ እድገት"
             },
-            "exportedOn": "Exported on",
+            "exportedOn": "የወጣበት ቀን",
             "button": {
-                "import": "Import data",
-                "processing": "Processing...",
-                "success": "Import complete",
-                "home": "Continue to home"
+                "import": "መረጃ ያስገቡ",
+                "processing": "በሂደት ላይ...",
+                "success": "ማስገባት ተጠናቋል",
+                "home": "ወደ መነሻ ገጽ ቀጥል"
             }
         },
-        "back": "Go back"
+        "back": "ተመለስ"
     },
     "navigation": {
         "banner": {
-            "offline": "Check your internet connection, silly goose! 🦢"
+            "offline": "የኢንተርኔት ግንኙነትዎን ያረጋግጡ፣ ሞኝ ዝይ! 🦢"
         },
         "menu": {
-            "about": "About us",
-            "logout": "Log out",
-            "register": "Sync to Cloud",
-            "settings": "Settings",
-            "support": "Support",
-            "discover": "Discover",
-            "development": "Development"
+            "about": "ስለ እኛ",
+            "logout": "ውጣ",
+            "register": "ከክላውድ ጋር አመሳስል",
+            "settings": "ቅንብሮች",
+            "support": "ድጋፍ",
+            "discover": "አዳዲስ ነገሮችን ያግኙ",
+            "development": "ልማት"
         }
     },
     "notFound": {
-        "badge": "Not found",
-        "goHome": "Back to home",
-        "reloadButton": "Try again",
-        "message": "We looked everywhere: under the bins, in the closet, behind the proxy, but ultimately couldn't find the page you are looking for. (ಥ﹏ಥ)",
-        "title": "Couldn't find that page"
+        "badge": "አልተገኘም",
+        "goHome": "ወደ መነሻ ገጽ ተመለስ",
+        "reloadButton": "እንደገና ሞክር",
+        "message": "ሁሉንም ቦታ ፈለግን፦ ከቆሻሻ መጣያዎች ስር፣ ቁምሳጥን ውስጥ፣ ከፕሮክሲው ጀርባ፣ ነገር ግን በመጨረሻ የሚፈልጉትን ገጽ ማግኘት አልቻልንም። (ಥ﹏ಥ)",
+        "title": "ያንን ገጽ ማግኘት አልተቻለም"
     },
     "downtimeNotice": {
-        "badge": "Issues",
-        "goHome": "Go home",
-        "message": "P-Stream is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
-        "title": "Provider issues"
+        "badge": "ችግሮች",
+        "goHome": "ወደ መነሻ ገጽ ተመለስ",
+        "message": "ፒ-ስትሪም ከአንዳንድ አቅራቢዎች ጋር እንደገና ችግሮች እያጋጠሙት ነው፤ ፕሮግራም ማግኘት ወይም ማጫወት ካልቻሉ እባክዎ ምንጩን ይቀይሩ። ይህ ስህተት ከዚህ በታች ባሉት ጊዜያት ውስጥ እንደሚቀጥል ይጠብቁ።",
+        "title": "የአቅራቢ ችግሮች"
     },
     "onboarding": {
         "defaultConfirm": {
-            "cancel": "Cancel",
-            "confirm": "Use default setup",
-            "description": "The default setup does not have the best streams. You'll be missing out on the best sources!",
-            "title": "Are you sure?"
+            "cancel": "ሰርዝ",
+            "confirm": "ነባሪ ማዋቀሪያ ተጠቀም",
+            "description": "ነባሪው ማዋቀሪያ ምርጥ ስርጭቶች የሉትም። ምርጥ ምንጮችን ያመልጥዎታል!",
+            "title": "እርግጠኛ ነዎት?"
         },
         "extension": {
-            "back": "Go back",
-            "explainer": "Using the browser extension, you can get the best streams we have to offer. With just a simple install. 👌",
-            "explainerIos": "Unfortunately, the browser extension is not supported on iOS, Press <bold>Go back</bold> to choose another option.",
-            "extensionHelp": "If you've installed the extension but it's not detected, <bold>open the extension through your browsers extension menu</bold> and follow the steps on screen.",
-            "linkChrome": "Install Chrome extension",
-            "linkFirefox": "Install Firefox extension",
-            "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page!",
-            "notDetectingAction": "Reload page",
+            "back": "ተመለስ",
+            "explainer": "የአሳሽ ቅጥያውን በመጠቀም፣ ልናቀርብ የምንችላቸውን ምርጥ ስርጭቶች ማግኘት ይችላሉ። በቀላል ጭነት ብቻ። 👌",
+            "explainerIos": "እንደ አለመታደል ሆኖ የአሳሽ ቅጥያው በ iOS ላይ አይደገፍም፤ ሌላ አማራጭ ለመምረጥ <bold>ተመለስ</bold> የሚለውን ይጫኑ።",
+            "extensionHelp": "ቅጥያውን ከጫኑ ነገር ግን ካልተገኘ፣ <bold>በአሳሽዎ የቅጥያ ምናሌ በኩል ቅጥያውን ይክፈቱ</bold> እና በማያ ገጹ ላይ ያሉትን ደረጃዎች ይከተሉ።",
+            "linkChrome": "የChrome ቅጥያ ጫን",
+            "linkFirefox": "የFirefox ቅጥያ ጫን",
+            "notDetecting": "በChrome ላይ ተጭኗል፣ ነገር ግን ድረ-ገጹ አላገኘውም? ገጹን እንደገና ለመጫን ይሞክሩ!",
+            "notDetectingAction": "ገጹን እንደገና ጫን",
             "status": {
-                "disallowed": "Extension is not enabled for this page (,,>﹏<,,)",
-                "disallowedAction": "Enable extension",
-                "failed": "Failed to request status",
-                "loading": "Waiting for you to install the extension",
-                "outdated": "Extension version too old",
-                "success": "Extension is working as expected!"
+                "disallowed": "ቅጥያው ለዚህ ገጽ አልተፈቀደም (,,>﹏<,,)",
+                "disallowedAction": "ቅጥያ ፍቀድ",
+                "failed": "ሁኔታ መጠየቅ አልተቻለም",
+                "loading": "ቅጥያውን እስኪጭኑ በመጠበቅ ላይ",
+                "outdated": "የቅጥያ ስሪት በጣም ያረጀ ነው",
+                "success": "ቅጥያው እንደተጠበቀው እየሰራ ነው!"
             },
-            "submit": "Continue",
-            "title": "Let's start with an extension"
+            "submit": "ቀጥል",
+            "title": "በቅጥያ እንጀምር"
         },
         "proxy": {
-            "back": "Go back",
-            "explainer": "With the proxy method, you can get great quality streams by making a self-service proxy.",
+            "back": "ተመለስ",
+            "explainer": "በፕሮክሲ ዘዴው፣ በራስ አገልግሎት ፕሮክሲ በመፍጠር ምርጥ ጥራት ያላቸውን ስርጭቶች ማግኘት ይችላሉ።",
             "input": {
-                "errorConnection": "Could not connect to proxy",
-                "errorInvalidUrl": "Not a valid URL",
-                "errorNotProxy": "Expected a proxy but got a website",
-                "label": "Proxy URL",
+                "errorConnection": "ከፕሮክሲው ጋር መገናኘት አልተቻለም",
+                "errorInvalidUrl": "ትክክለኛ URL አይደለም",
+                "errorNotProxy": "ፕሮክሲ ሲጠበቅ ድረ-ገጽ ተገኝቷል",
+                "label": "የፕሮክሲ URL",
                 "placeholder": "https://"
             },
-            "link": "Learn how to make a proxy",
-            "submit": "Submit proxy",
-            "title": "Let's make a new proxy"
+            "link": "ፕሮክሲ እንዴት እንደሚሰራ ይወቁ",
+            "submit": "ፕሮክሲ አስገባ",
+            "title": "አዲስ ፕሮክሲ እንፍጠር"
         },
         "start": {
-            "explainer": "To get the best streams possible, you will need to choose which streaming method you want to use.",
+            "explainer": "የሚቻለውን ምርጥ ስርጭት ለማግኘት፣ የትኛውን የማስተላለፊያ ዘዴ መጠቀም እንደሚፈልጉ መምረጥ ያስፈልግዎታል።",
             "moreInfo": {
-                "button": "More info",
-                "title": "Understanding a setup",
+                "button": "ተጨማሪ መረጃ",
+                "title": "ማዋቀሪያን መረዳት",
                 "explainer": {
-                    "intro": "P-Stream doesn't host videos. It relies on third-party websites for content, so you need to choose how it connects to those sites.",
-                    "options": "Your Options:",
-                    "extension": "1. Extension",
-                    "extensionDescription": "The extension gives you access to the most sources. It acts as a local proxy and can handle sites that need special cookies or headers to load.",
-                    "proxy": "2. Proxy",
-                    "proxyDescription": "The proxy scrapes media from other websites. It bypasses browser restrictions (like CORS) to allow scraping.",
-                    "default": "3. Default Setup",
-                    "defaultDescription": "Uses P-Stream's built-in proxy. It's the easiest option but might be slower due to shared bandwidth.",
+                    "intro": "ፒ-ስትሪም ቪዲዮዎችን አያስተናግድም። ለይዘት በሶስተኛ ወገን ድረ-ገጾች ላይ ይመሰረታል፤ ስለዚህ ከእነዚያ ድረ-ገጾች ጋር እንዴት እንደሚገናኝ መምረጥ ያስፈልግዎታል።",
+                    "options": "የእርስዎ አማራጮች:",
+                    "extension": "1. ቅጥያ",
+                    "extensionDescription": "ቅጥያው ለብዙ ምንጮች መዳረሻ ይሰጥዎታል። እንደ አካባቢያዊ ፕሮክሲ ሆኖ የሚያገለግል ሲሆን ለመጫን ልዩ ኩኪዎች ወይም ራስጌዎች የሚያስፈልጋቸውን ድረ-ገጾች ማስተናገድ ይችላል።",
+                    "proxy": "2. ፕሮክሲ",
+                    "proxyDescription": "ፕሮክሲው ከሌሎች ድረ-ገጾች ሚዲያ ይሰበስባል። ለመሰብሰብ እንዲቻል የአሳሽ ገደቦችን (እንደ CORS ያሉ) ያልፋል።",
+                    "default": "3. ነባሪ ማዋቀሪያ",
+                    "defaultDescription": "የፒ-ስትሪምን አብሮ የተሰራ ፕሮክሲ ይጠቀማል። በጣም ቀላሉ አማራጭ ነው ነገር ግን በተጋራ የመተላለፊያ ይዘት ምክንያት ቀርፋፋ ሊሆን ይችላል።",
                     "fedapi": {
-                        "fedapi": "Additional: FED API (Private) token",
-                        "fedapiDescription": "Bring your own FREE Febbox account to gain access to FED API (Private), the best source with 4K quality, Dolby Atmos, skip intro and the fastest load times! Highly recommended option!"
+                        "fedapi": "ተጨማሪ: FED API (የግል) ቶክን",
+                        "fedapiDescription": "የራስዎን ነፃ የFebbox መለያ በማምጣት ለFED API (የግል) መዳረሻ ያግኙ፤ ይህም 4K ጥራት፣ Dolby Atmos፣ የመግቢያ መዝለል እና ፈጣን የመጫኛ ጊዜዎች ያለው ምርጥ ምንጭ ነው! በጣም የሚመከር አማራጭ!"
                     },
-                    "outro": "If you have more questions on how this works, feel free to ask on the <0>P-Stream Discord</0> server!"
+                    "outro": "ይህ እንዴት እንደሚሰራ ተጨማሪ ጥያቄዎች ካሉዎት በ <0>ፒ-ስትሪም ዲስኮርድ</0> ሰርቨር ላይ ለመጠየቅ ነፃነት ይሰማዎት!"
                 },
                 "recommended": {
-                    "title": "Not sure what to choose?",
-                    "subtitle": "Recommended Configurations:",
+                    "title": "ምን መምረጥ እንዳለብዎት እርግጠኛ አይደሉም?",
+                    "subtitle": "የሚመከሩ ማዋቀሪያዎች:",
                     "desktop": {
-                        "title": "Desktop:",
-                        "description": "Extension + FED API (Private)"
+                        "title": "ዴስክቶፕ:",
+                        "description": "ቅጥያ + FED API (የግል)"
                     },
                     "iOS": {
                         "title": "iOS:",
-                        "description": "Custom proxy + FED API (Private)"
+                        "description": "ብጁ ፕሮክሲ + FED API (የግል)"
                     },
                     "android": {
-                        "title": "Android:",
-                        "description": "Extension + FED API (Private)"
+                        "title": "አንድሮይድ:",
+                        "description": "ቅጥያ + FED API (የግል)"
                     }
                 }
             },
             "options": {
-                "or": "or",
+                "or": "ወይም",
                 "default": {
-                    "text": "I don't want good quality streams, use the default setup."
+                    "text": "ጥሩ ጥራት ያላቸውን ስርጭቶች አልፈልግም፤ ነባሪውን ማዋቀሪያ ተጠቀም።"
                 },
                 "extension": {
-                    "action": "Install extension",
-                    "description": "Install browser extension and gain access to additional sources! Remember to enable it for this site.",
-                    "quality": "Best quality + More Sources",
-                    "title": "Browser extension"
+                    "action": "ቅጥያ ጫን",
+                    "description": "የአሳሽ ቅጥያ ይጫኑ እና ለተጨማሪ ምንጮች መዳረሻ ያግኙ! ለዚህ ድረ-ገጽ ማንቃትዎን ያስታውሱ።",
+                    "quality": "ምርጥ ጥራት + ተጨማሪ ምንጮች",
+                    "title": "የአሳሽ ቅጥያ"
                 },
                 "proxy": {
-                    "action": "Setup proxy",
-                    "description": "Setup a free proxy in just 5 minutes! Improves loading reliability!",
-                    "quality": "Good quality",
-                    "title": "Custom proxy"
+                    "action": "ፕሮክሲ አዋቅር",
+                    "description": "በ5 ደቂቃ ውስጥ ነፃ ፕሮክሲ ያዋቅሩ! የመጫንን አስተማማኝነት ያሻሽላል!",
+                    "quality": "ጥሩ ጥራት",
+                    "title": "ብጁ ፕሮክሲ"
                 }
             },
-            "title": "Let's get you setup with P-Stream 🥳"
+            "title": "በፒ-ስትሪም እንድናዋቅርዎት እንረዳዎ 🥳"
         }
     },
     "overlays": {
-        "close": "Close"
+        "close": "ዝጋ"
     },
     "player": {
         "back": {
-            "default": "Back to home",
-            "short": "Back"
+            "default": "ወደ መነሻ ገጽ ተመለስ",
+            "short": "ተመለስ"
         },
         "casting": {
-            "enabled": "Casting to device 🎬"
+            "enabled": "ወደ መሳሪያ በማስተላለፍ ላይ 🎬"
         },
         "menus": {
             "downloads": {
-                "button": "Atempt download",
-                "hlsDownloader": "Or, go to the <0>hls downloader website</0> and paste the playlist URL from below.",
-                "disclaimer": "Downloads are taken directly from the provider. P-Stream does not have control over how the downloads are provided.",
-                "copyHlsPlaylist": "Copy HLS playlist link",
-                "downloadSubtitle": "Download current subtitle",
-                "downloadVideo": "Download video",
-                "hlsDisclaimer": "Downloads are taken directly from the provider. P-Stream does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
+                "button": "ለማውረድ ሞክር",
+                "hlsDownloader": "ወይም፣ ወደ <0>hls ማውረጃ ድረ-ገጽ</0> ይሂዱ እና ከታች ያለውን የአጫዋች ዝርዝር URL ይለጥፉ።",
+                "disclaimer": "ማውረዶች በቀጥታ ከአቅራቢው ይወሰዳሉ። ፒ-ስትሪም ማውረዶቹ እንዴት እንደሚቀርቡ ላይ ቁጥጥር የለውም።",
+                "copyHlsPlaylist": "የHLS አጫዋች ዝርዝር አገናኝ ቅዳ",
+                "downloadSubtitle": "የአሁኑን የትርጉም ጽሑፍ አውርድ",
+                "downloadVideo": "ቪዲዮ አውርድ",
+                "hlsDisclaimer": "ማውረዶች በቀጥታ ከአቅራቢው ይወሰዳሉ። ፒ-ስትሪም ማውረዶቹ እንዴት እንደሚቀርቡ ላይ ቁጥጥር የለውም።<br /><br />እባክዎ ልብ ይበሉ የHLS አጫዋች ዝርዝር እያወረዱ ነው፤ <bold>ከፍተኛ ደረጃ የማስተላለፊያ ቅርጸቶችን የማያውቁ ከሆነ ማውረድ አይመከርም</bold>። ለተለያዩ ቅርጸቶች የተለያዩ ምንጮችን ይሞክሩ።",
                 "onAndroid": {
-                    "1": "To download on Android, click the download button then, on the new page, <bold>tap and hold</bold> on the video, then select <bold>save</bold>.",
-                    "shortTitle": "Download / Android",
-                    "title": "Downloading on Android"
+                    "1": "በአንድሮይድ ላይ ለማውረድ፣ የማውረጃ ቁልፍን ይጫኑ ከዚያም በአዲሱ ገጽ ላይ ቪዲዮውን <bold>ነክተው ይያዙ</bold>፣ ከዚያ <bold>አስቀምጥ</bold> የሚለውን ይምረጡ።",
+                    "shortTitle": "አውርድ / አንድሮይድ",
+                    "title": "በአንድሮይድ ላይ ማውረድ"
                 },
                 "onIos": {
-                    "1": "To download on iOS, click the download button then, on the new page, click <bold><ios_share /></bold>, then <bold>Save to Files <ios_files /></bold>.",
-                    "shortTitle": "Download / iOS",
-                    "title": "Downloading on iOS"
+                    "1": "በiOS ላይ ለማውረድ፣ የማውረጃ ቁልፍን ይጫኑ ከዚያም በአዲሱ ገጽ ላይ <bold><ios_share /></bold> የሚለውን ይጫኑ፣ ከዚያ <bold>ወደ ፋይሎች አስቀምጥ <ios_files /></bold>።",
+                    "shortTitle": "አውርድ / iOS",
+                    "title": "በiOS ላይ ማውረድ"
                 },
                 "onPc": {
-                    "1": "On PC, click the download button then, on the new page, right click the video and select <bold>Save video as</bold>",
-                    "shortTitle": "Download / PC",
-                    "title": "Downloading on PC"
+                    "1": "በፒሲ ላይ፣ የማውረጃ ቁልፍን ይጫኑ ከዚያም በአዲሱ ገጽ ላይ ቪዲዮውን በቀኝ ጠቅ ያድርጉ እና <bold>ቪዲዮ አስቀምጥ እንደ</bold> የሚለውን ይምረጡ",
+                    "shortTitle": "አውርድ / ፒሲ",
+                    "title": "በፒሲ ላይ ማውረድ"
                 },
-                "title": "Download"
+                "title": "አውርድ"
             },
             "episodes": {
-                "button": "Episodes",
-                "emptyState": "There are no episodes in this season, check back later (sorry :3)...",
-                "episodeBadge": "E{{episode}}",
-                "loadingError": "Error loading season",
-                "loadingList": "Loading...",
-                "loadingTitle": "Loading...",
-                "unairedEpisodes": "One or more episodes in this season have been disabled because they haven't been aired yet.",
-                "seasons": "Seasons"
+                "button": "ክፍሎች",
+                "emptyState": "በዚህ ምዕራፍ ምንም ክፍሎች የሉም፤ በኋላ ተመልሰው ያረጋግጡ (ይቅርታ :3)...",
+                "episodeBadge": "ክፍል {{episode}}",
+                "loadingError": "ምዕራፍ መጫን አልተቻለም",
+                "loadingList": "እየጫነ ነው...",
+                "loadingTitle": "እየጫነ ነው...",
+                "unairedEpisodes": "በዚህ ምዕራፍ ውስጥ አንድ ወይም ከዚያ በላይ ክፍሎች ገና ስላልታዩ ተሰናክለዋል።",
+                "seasons": "ምዕራፎች"
             },
             "playback": {
-                "speedLabel": "Playback speed",
-                "title": "Playback settings"
+                "speedLabel": "የመልሶ ማጫወት ፍጥነት",
+                "title": "የመልሶ ማጫወት ቅንብሮች"
             },
             "quality": {
-                "automaticLabel": "Automatic quality",
-                "hint": "You can try <0>switching source</0> to get different quality options.",
-                "iosNoQuality": "Due to Apple-defined (common IOS L) limitations, quality selection is not available on iOS for this source. You can try <0>switching to another source</0> to get different quality options.",
-                "title": "Quality"
+                "automaticLabel": "ራስ-ሰር ጥራት",
+                "hint": "የተለያዩ የጥራት አማራጮችን ለማግኘት <0>ምንጭ ለመቀየር</0> መሞከር ይችላሉ።",
+                "iosNoQuality": "በአፕል በተቀመጡ (የተለመደ የiOS ችግር) ገደቦች ምክንያት ለዚህ ምንጭ በ iOS ላይ የጥራት ምርጫ አይገኝም። የተለያዩ የጥራት አማራጮችን ለማግኘት <0>ወደ ሌላ ምንጭ ለመቀየር</0> መሞከር ይችላል።",
+                "title": "ጥራት"
             },
             "settings": {
-                "downloadItem": "Download",
-                "enableSubtitles": "Enable Subtitles",
-                "experienceSection": "Viewing experience",
-                "playbackItem": "Playback settings",
-                "audioItem": "Audio",
-                "qualityItem": "Quality",
-                "sourceItem": "Video sources",
-                "subtitleItem": "Subtitle settings",
-                "videoSection": "Video settings"
+                "downloadItem": "አውርድ",
+                "enableSubtitles": "የትርጉም ጽሑፎችን አንቃ",
+                "experienceSection": "የእይታ ተሞክሮ",
+                "playbackItem": "የመልሶ ማጫወት ቅንብሮች",
+                "audioItem": "ድምጽ",
+                "qualityItem": "ጥራት",
+                "sourceItem": "የቪዲዮ ምንጮች",
+                "subtitleItem": "የትርጉም ጽሑፍ ቅንብሮች",
+                "videoSection": "የቪዲዮ ቅንብሮች"
             },
             "sources": {
                 "failed": {
-                    "text": "There was an error while trying to find any videos... Try a different source?",
-                    "title": "Failed to scrape"
+                    "text": "ማንኛውንም ቪዲዮ ለማግኘት ሲሞከር ስህተት ተፈጥሯል... የተለየ ምንጭ ይሞክሩ?",
+                    "title": "መሰብሰብ አልተቻለም"
                 },
                 "noEmbeds": {
-                    "text": "We were unable to find any embeds, please try a different source.",
-                    "title": "No embeds found"
+                    "text": "ምንም የተከተቱ ነገሮች ማግኘት አልቻልንም፤ እባክዎ የተለየ ምንጭ ይሞክሩ።",
+                    "title": "ምንም የተከተቱ ነገሮች አልተገኙም"
                 },
                 "noStream": {
-                    "text": "This source has no streams for this movie or show. /ᐠ - ˕ -マ Ⳋ",
-                    "title": "No stream :("
+                    "text": "ይህ ምንጭ ለዚህ ፊልም ወይም ፕሮግራም ምንም ስርጭቶች የሉትም። /ᐠ - ˕ -マ Ⳋ",
+                    "title": "ምንም ስርጭት የለም :("
                 },
-                "title": "Sources",
-                "unknownOption": "Unknown",
-                "editOrder": "Edit order"
+                "title": "ምንጮች",
+                "unknownOption": "ያልታወቀ",
+                "editOrder": "ቅደም ተከተል አስተካክል"
             },
             "subtitles": {
-                "customChoice": "Drop or upload file",
-                "customizeLabel": "Customize",
-                "offChoice": "Off",
-                "onChoice": "On",
-                "SourceChoice": "Source Captions",
+                "customChoice": "ፋይል ይጣሉ ወይም ይስቀሉ",
+                "customizeLabel": "አብጅ",
+                "offChoice": "አጥፋ",
+                "onChoice": "አብራ",
+                "SourceChoice": "የምንጭ መግለጫ ጽሑፎች",
                 "OpenSubtitlesChoice": "OpenSubtitles",
                 "settings": {
-                    "backlink": "Custom subtitles",
-                    "delay": "Subtitle delay",
-                    "fixCapitals": "Fix capitalization"
+                    "backlink": "ብጁ የትርጉም ጽሑፎች",
+                    "delay": "የትርጉም ጽሑፍ መዘግየት",
+                    "fixCapitals": "የ регистр (capitalization) አስተካክል"
                 },
-                "title": "Subtitles",
-                "unknownLanguage": "Unknown",
-                "dropSubtitleFile": "Drop subtitle file here! >_<",
-                "scrapeButton": "Scrape subtitles",
-                "empty": "There are no provided subtitles for this.",
-                "notFound": "None of the available options match your query",
-                "useNativeSubtitles": "Use native video subtitles",
-                "useNativeSubtitlesDescription": "May fix subtitles when casting and in PiP"
+                "title": "የትርጉም ጽሑፎች",
+                "unknownLanguage": "ያልታወቀ ቋንቋ",
+                "dropSubtitleFile": "የትርጉም ጽሑፍ ፋይል እዚህ ይጣሉ! >_<",
+                "scrapeButton": "የትርጉም ጽሑፎችን ሰብስብ",
+                "empty": "ለዚህ የቀረቡ የትርጉም ጽሑፎች የሉም።",
+                "notFound": "ከሚገኙት አማራጮች ውስጥ አንዳቸውም ከጥያቄዎ ጋር አይዛመዱም",
+                "useNativeSubtitles": "የቪዲዮውን የራሱ የትርጉም ጽሑፎች ተጠቀም",
+                "useNativeSubtitlesDescription": "በሚያስተላልፉበት ጊዕ እና በ PiP (ሥዕል-በሥዕል) ላይ የትርጉም ጽሑፎችን ሊያስተካክል ይችላል"
             },
             "watchparty": {
-                "watchpartyItem": "Watch Party",
-                "notice": "Legacy Watch Party might not be available for some sources",
-                "legacyWatchparty": "Use legacy Watch Party"
+                "watchpartyItem": "የጋራ እይታ",
+                "notice": "የቆየ የጋራ እይታ ለአንዳንድ ምንጮች ላይገኝ ይችላል",
+                "legacyWatchparty": "የቆየ የጋራ እይታ ተጠቀም"
             }
         },
         "metadata": {
             "api": {
-                "text": "Could not load API metadata, please check your internet connection.",
-                "title": "Failed to load API metadata"
+                "text": "የኤፒአይ ሜታዳታ መጫን አልተቻለም፤ እባክዎ የኢንተርኔት ግንኙነትዎን ያረጋግጡ።",
+                "title": "የኤፒአይ ሜታዳታ መጫን አልተቻለም"
             },
             "dmca": {
-                "badge": "Removed",
-                "text": "This media is no longer available due to a takedown notice or copyright claim. 😨",
-                "title": "Media has been removed"
+                "badge": "ተወግዷል",
+                "text": "ይህ ሚዲያ በማስወገጃ ማስታወቂያ ወይም በቅጂ መብት ጥያቄ ምክንያት ከአሁን በኋላ አይገኝም። 😨",
+                "title": "ሚዲያ ተወግዷል"
             },
             "extensionPermission": {
-                "badge": "Permission Missing",
-                "button": "Use extension",
-                "text": "You have the browser extension, but we need your permission to get started using the extension. (¬_¬)",
-                "title": "Configure the extension"
+                "badge": "ፍቃድ ይጎድላል",
+                "button": "ቅጥያ ተጠቀም",
+                "text": "የአሳሽ ቅጥያው አለዎት፤ ነገር ግን ቅጥያውን መጠቀም ለመጀመር የእርስዎን ፍቃድ እንፈልጋለን። (¬_¬)",
+                "title": "ቅጥያውን ያዋቅሩ"
             },
             "failed": {
-                "badge": "Failed",
-                "homeButton": "Go home",
-                "text": "Could not load the media's metadata from TMDB. Please check whether TMDB is down or blocked on your internet connection.",
-                "title": "Failed to load metadata"
+                "badge": "አልተሳካም",
+                "homeButton": "ወደ መነሻ ገጽ ተመለስ",
+                "text": "የሚዲያውን ሜታዳታ ከTMDB መጫን አልተቻለም። እባክዎ TMDB መስራቱን ወይም በኢንተርኔት ግንኙነትዎ ላይ መዘጋቱን ያረጋግጡ።",
+                "title": "ሜታዳታ መጫን አልተቻለም"
             },
             "notFound": {
-                "badge": "Not found",
-                "homeButton": "Back to home",
-                "text": "We couldn't find the media you requested. Either it's been removed or you tampered with the URL (naughty, naughty).",
-                "title": "Couldn't find that media."
+                "badge": "አልተገኘም",
+                "homeButton": "ወደ መነሻ ገጽ ተመለስ",
+                "text": "የጠየቁትን ሚዲያ ማግኘት አልቻልንም። ወይ ተወግዷል ወይም URLውን ቀይረውታል (ተንኮለኛ፣ ተንኮለኛ)።",
+                "title": "ያንን ሚዲያ ማግኘት አልተቻለም።"
             }
         },
         "nextEpisode": {
-            "replay": "Replay",
-            "next": "Next episode",
-            "nextSeason": "Next season"
+            "replay": "እንደገና አጫውት",
+            "next": "ቀጣይ ክፍል",
+            "nextSeason": "ቀጣይ ምዕራፍ"
         },
         "playbackError": {
-            "badge": "Playback error",
+            "badge": "የመልሶ ማጫወት ስህተት",
             "errors": {
-                "errorAborted": "The fetching of the media was aborted by the user's request.",
-                "errorDecode": "Despite having previously been determined to be usable, an error occurred while trying to decode the media resource, resulting in an error.",
-                "errorGenericMedia": "Unknown media error occurred.",
-                "errorNetwork": "Some kind of network error occurred which prevented the media from being successfully fetched, despite having previously been available.",
-                "errorNotSupported": "The media or media provider object is not supported."
+                "errorAborted": "የሚዲያውን ማምጣት በተጠቃሚው ጥያቄ ተቋርጧል።",
+                "errorDecode": "ቀደም ሲል ጥቅም ላይ ሊውል እንደሚችል ቢታወቅም፣ የሚዲያ ምንጩን ለመፍታት (decode) ሲሞከር ስህተት ተፈጥሯል፤ ይህም ስህተት አስከትሏል።",
+                "errorGenericMedia": "ያልታወቀ የሚዲያ ስህተት ተፈጥሯል።",
+                "errorNetwork": "ቀደም ሲል ቢገኝም፣ ሚዲያው በተሳካ ሁኔታ እንዳይመጣ ያደረገ አንድ ዓይነት የኔትወርክ ስህተት ተፈጥሯል።",
+                "errorNotSupported": "ሚዲያው ወይም የሚዲያ አቅራቢው ነገር አይደገፍም።"
             },
-            "homeButton": "Go home",
-            "text": "There was an error trying to play the media 😖. Please try again or try a different source!",
-            "title": "Failed to play video!"
+            "homeButton": "ወደ መነሻ ገጽ ተመለስ",
+            "text": "ሚዲያውን ለማጫወት ሲሞከር ስህተት ተፈጥሯል 😖። እባክዎ እንደገና ይሞክሩ ወይም የተለየ ምንጭ ይሞክሩ!",
+            "title": "ቪዲዮ ማጫወት አልተቻለም!"
         },
         "scraping": {
             "items": {
-                "failure": "Error occurred",
-                "notFound": "Doesn't have the video (╥﹏╥)",
-                "pending": "Checking for videos..."
+                "failure": "ስህተት ተፈጥሯል",
+                "notFound": "ቪዲዮው የለውም (╥﹏╥)",
+                "pending": "ቪዲዮዎችን በመፈተሽ ላይ..."
             },
             "notFound": {
-                "badge": "Not found",
-                "detailsButton": "Show details",
-                "homeButton": "Go home",
-                "discoverButton": "Discover more",
-                "text": "We have searched through our providers and cannot find the media you are looking for! We do not host the media and have no control over what is available. Please click 'Show details' below for more details.",
-                "title": "We couldn't find that"
+                "badge": "አልተገኘም",
+                "detailsButton": "ዝርዝሮችን አሳይ",
+                "homeButton": "ወደ መነሻ ገጽ ተመለስ",
+                "discoverButton": "የበለጠ ያግኙ",
+                "text": "በአቅራቢዎቻችን ውስጥ ፈለግን እና የሚፈልጉትን ሚዲያ ማግኘት አልቻልንም! ሚዲያውን አናስተናግድም እና በሚገኘው ነገር ላይ ቁጥጥር የለንም። ለተጨማሪ ዝርዝሮች እባክዎ ከታች 'ዝርዝሮችን አሳይ' የሚለውን ይጫኑ።",
+                "title": "ያንን ማግኘት አልቻልንም"
             },
             "extensionFailure": {
-                "badge": "Extension disabled",
-                "homeButton": "Go home",
-                "enableExtension": "Enable extension",
-                "title": "Please enable the extension",
-                "text": "You've installed the P-Stream extension. To start using it, you need to enable the extension for this site."
+                "badge": "ቅጥያ ተሰናክሏል",
+                "homeButton": "ወደ መነሻ ገጽ ተመለስ",
+                "enableExtension": "ቅጥያ ፍቀድ",
+                "title": "እባክዎ ቅጥያውን ይፍቀዱ",
+                "text": "የፒ-ስትሪም ቅጥያውን ጭነዋል። እሱን መጠቀም ለመጀመር ለዚህ ድረ-ገጽ ቅጥያውን መፍቀድ ያስፈልግዎታል።"
             },
             "tips": {
-                "1": "Tap the gear icon to switch sources!",
-                "2": "Tap the title to copy the link!",
-                "3": "Tap and hold or hold SHIFT to show widescreen button instead of fullscreen!",
-                "4": "Some sources work better than others!",
-                "5": "Get the extension for more sources!",
-                "6": "Hold bookmarks to edit or delete them!",
-                "7": "Hold SHIFT and tap the title to copy the link with time!",
-                "8": "Set a custom subtitle color!",
-                "9": "Migrate your account to a new backend in settings!",
-                "10": "Join the Discord!",
-                "11": "Use [ and ] to adjust subtitle timing!",
-                "12": "Press SPACE or K to play/pause!",
-                "13": "Use LEFT and RIGHT arrow keys to skip 5 seconds!",
-                "14": "Use J and L keys to skip 10 seconds!",
-                "15": "Press F to toggle fullscreen!",
-                "16": "Press M to toggle mute!",
-                "17": "Use UP and DOWN arrows to change volume!",
-                "18": "Press < and > to change playback speed!",
-                "19": "Press . and , to move frame by frame when paused!",
-                "20": "Press C to toggle subtitles!",
-                "21": "Press R to do a barrel roll!"
+                "1": "ምንጮችን ለመቀየር የማርሽ አዶውን ይንኩ!",
+                "2": "አገናኙን ለማቅዳት ርዕሱን ይንኩ!",
+                "3": "ከሙሉ ማያ ገጽ ይልቅ ሰፊ ማያ ገጽ ቁልፍን ለማሳየት ነክተው ይያዙ ወይም SHIFTን ይያዙ!",
+                "4": "አንዳንድ ምንጮች ከሌሎቹ በተሻለ ይሰራሉ!",
+                "5": "ለተጨማሪ ምንጮች ቅጥያውን ያግኙ!",
+                "6": "ዕልባቶችን ለማስተካከል ወይም ለመሰረዝ ይዟቸው!",
+                "7": "SHIFTን ይዘው ርዕሱን በመንካት አገናኙን ከጊዜ ጋር ይቅዱ!",
+                "8": "ብጁ የትርጉም ጽሑፍ ቀለም ያዘጋጁ!",
+                "9": "በቅንብሮች ውስጥ መለያዎን ወደ አዲስ የኋላ ክፍል (backend) ያዛውሩ!",
+                "10": "ዲስኮርድን ይቀላቀሉ!",
+                "11": "የትርጉም ጽሑፍ ጊዜን ለማስተካከል [ እና ] ይጠቀሙ!",
+                "12": "ለማጫወት/ለማቆም SPACE ወይም Kን ይጫኑ!",
+                "13": "5 ሰከንዶችን ለመዝለል የግራ እና የቀኝ የቀስት ቁልፎችን ይጠቀሙ!",
+                "14": "10 ሰከንዶችን ለመዝለል የJ እና L ቁልፎችን ይጠቀሙ!",
+                "15": "ሙሉ ማያ ገጽን ለማብራት/ለማጥፋት Fን ይጫኑ!",
+                "16": "ድምጽን ለማጥፋት/ለማብራት Mን ይጫኑ!",
+                "17": "ድምጽን ለመቀየር የላይ እና የታች የቀስት ቁልፎችን ይጠቀሙ!",
+                "18": "የመልሶ ማጫወት ፍጥነትን ለመቀየር < እና > ን ይጫኑ!",
+                "19": "በቆመበት ጊዕ በፍሬም ለመንቀሳቀስ . እና , ን ይጫኑ!",
+                "20": "የትርጉም ጽሑፎችን ለማብራት/ለማጥፋት Cን ይጫኑ!",
+                "21": "በርሜል ለመንከባለል Rን ይጫኑ!"
             }
         },
         "time": {
             "regular": "{{timeWatched}} / {{duration}}",
-            "remaining": "{{timeLeft}} left • Finish at {{timeFinished, datetime}}",
+            "remaining": "{{timeLeft}} ቀርቷል • በ{{timeFinished, datetime}} ይጠናቀቃል",
             "shortRegular": "{{timeWatched}}",
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Please prove your humanity by completing the quick challenge, this is to keep P-Stream safe.",
-            "error": "Failed to verify your humanity - stream failed to load. Clear your cache and try again, or switch to a different source (tap the gear).",
-            "title": "Are You a Robot 🤖?",
-            "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
+            "description": "ፒ-ስትሪምን ደህንነቱ የተጠበቀ ለማድረግ እባክዎ ፈጣኑን ፈተና በማጠናቀቅ ሰው መሆንዎን ያረጋግጡ።",
+            "error": "ሰው መሆንዎን ማረጋገጥ አልተቻለም - ስርጭቱ መጫን አልቻለም። መሸጎጫዎን ያፅዱ እና እንደገና ይሞክሩ፣ ወይም ወደ የተለየ ምንጭ ይቀይሩ (ማርሹን ይንኩ)።",
+            "title": "ሮቦት ነዎት 🤖?",
+            "verifyingHumanity": "ሰው መሆንዎን በማረጋገጥ ላይ... (^▽^)👍"
         }
     },
     "support": {
-        "title": "Support",
-        "text": "P-Stream is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
+        "title": "ድጋፍ",
+        "text": "ፒ-ስትሪም በተቻለ መጠን ለተጠቃሚ ምቹ እንዲሆን ታስቦ የተሰራ ነው። ሆኖም፣ ሰዎች አሁንም ጥያቄዎች እና ችግሮች ያጋጥሟቸዋል። ይህ ገጽ እነዚህን ጉድለቶች ለመፍታት እዚህ ይገኛል።",
         "q1": {
-            "body": "Well, you can join the official <0>P-Stream discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
-            "title": "Where can I get help?"
+            "body": "ደህና፣ ይፋዊውን <0>የፒ-ስትሪም ዲስኮርድ</0> መቀላቀል እና እዚያ ጥያቄዎችን መጠየቅ ወይም በዚህ ገጽ ግርጌ ላይ በቀረበው ኢሜል መላክ ይችላሉ።",
+            "title": "እርዳታ ከየት ማግኘት እችላለሁ?"
         },
         "q2": {
-            "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
-            "title": "How can I report a bug or issue?"
+            "body": "በማከማቻችን ውስጥ ዝርዝር ጉዳይ መፍጠር የሚችሉበት <0>ጊትሀብ</0> አለን። በተጨማሪም፣ ከፈለጉ፣ ችግሩን እራስዎ ለማስተካከል የ pull request መፍጠር ይችላሉ።",
+            "title": "ስህተት ወይም ችግር እንዴት ሪፖርት ማድረግ እችላለሁ?"
         }
     },
     "jip": {
-        "title": "Jip",
-        "text": "P-Stream didn't fall out of a coconut tree, it was made mostly by a single person (a very epic one at that).",
+        "title": "ጂፕ",
+        "text": "ፒ-ስትሪም ከኮኮናት ዛፍ ላይ አልወደቀም፤ በአብዛኛው የተሰራው በአንድ ሰው (በጣም ድንቅ በሆነ ሰው) ነው።",
         "q1": {
-            "body": "Well, you can join the official <0>P-Stream discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
-            "title": "Where can I get help?"
+            "body": "ደህና፣ ይፋዊውን <0>የፒ-ስትሪም ዲስኮርድ</0> መቀላቀል እና እዚያ ጥያቄዎችን መጠየቅ ወይም በዚህ ገጽ ግርጌ ላይ በቀረበው ኢሜል መላክ ይችላሉ።",
+            "title": "እርዳታ ከየት ማግኘት እችላለሁ?"
         },
         "q2": {
-            "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
-            "title": "How can I report a bug or issue?"
+            "body": "በማከማቻችን ውስጥ ዝርዝር ጉዳይ መፍጠር የሚችሉበት <0>ጊትሀብ</0> አለን። በተጨማሪም፣ ከፈለጉ፣ ችግሩን እራስዎ ለማስተካከል የ pull request መፍጠር ይችላሉ።",
+            "title": "ስህተት ወይም ችግር እንዴት ሪፖርት ማድረግ እችላለሁ?"
         }
     },
     "screens": {
         "dmca": {
             "title": "DMCA"
         },
-        "loadingApp": "Loading application",
-        "loadingUser": "Loading your profile",
+        "loadingApp": "መተግበሪያ በመጫን ላይ",
+        "loadingUser": "መገለጫዎን በመጫን ላይ",
         "loadingUserError": {
-            "logout": "Logout",
-            "reset": "Reset custom server",
-            "text": "Failed to load your profile",
-            "reload": "Reload",
-            "textWithReset": "Failed to load your profile from your custom server, want to reset back to the default server?"
+            "logout": "ውጣ",
+            "reset": "ብጁ ሰርቨር ዳግም አስጀምር",
+            "text": "መገለጫዎን መጫን አልተቻለም",
+            "reload": "እንደገና ጫን",
+            "textWithReset": "ከብጁ ሰርቨርዎ መገለጫዎን መጫን አልተቻለም፤ ወደ ነባሪው ሰርቨር መመለስ ይፈልጋሉ?"
         },
         "migration": {
-            "failed": "Failed to migrate your data. 😿",
-            "inProgress": "Please hold, we are migrating your data. This shouldn't take long..."
+            "failed": "መረጃዎን ማዛወር አልተቻለም። 😿",
+            "inProgress": "እባክዎ ይጠብቁ፤ መረጃዎን እያዛወርን ነው። ይህ ብዙ ጊዜ አይፈጅም..."
         }
     },
     "settings": {
         "account": {
             "accountDetails": {
-                "deviceNameLabel": "Device name",
-                "deviceNamePlaceholder": "Personal phone",
-                "editProfile": "Edit",
-                "logoutButton": "Log out"
+                "deviceNameLabel": "የመሳሪያ ስም",
+                "deviceNamePlaceholder": "የግል ስልክ",
+                "editProfile": "አስተካክል",
+                "logoutButton": "ውጣ"
             },
             "admin": {
-                "title": "Admin panel",
-                "text": "Utilize tools made for testing P-Stream's condition.",
-                "button": "Check it out"
+                "title": "የአስተዳዳሪ ፓነል",
+                "text": "የፒ-ስትሪምን ሁኔታ ለመፈተሽ የተሰሩ መሳሪያዎችን ይጠቀሙ።",
+                "button": "ይመልከቱት"
             },
             "actions": {
                 "delete": {
-                    "button": "Delete account",
-                    "confirmButton": "Delete account",
-                    "confirmDescription": "Are you sure you want to delete your account? All your data will be lost! ૮₍˶Ó﹏Ò ⑅₎ა",
-                    "confirmTitle": "Are you sure?",
-                    "text": "This action is irreversible. All data will be deleted and nothing can be recovered.",
-                    "title": "Delete account"
+                    "button": "መለያ ሰርዝ",
+                    "confirmButton": "መለያ ሰርዝ",
+                    "confirmDescription": "መለያዎን መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት? ሁሉም መረጃዎ ይጠፋል! ૮₍˶Ó﹏Ò ⑅₎ა",
+                    "confirmTitle": "እርግጠኛ ነዎት?",
+                    "text": "ይህ እርምጃ ሊቀለበስ አይችልም። ሁሉም መረጃ ይሰረዛል እና ምንም ነገር መልሶ ማግኘት አይቻልም።",
+                    "title": "መለያ ሰርዝ"
                 },
                 "migration": {
-                    "title": "Account migration",
-                    "text": "Migrate your account to a new server or download your data.",
-                    "button": "Migrate account"
+                    "title": "የመለያ ዝውውር",
+                    "text": "መለያዎን ወደ አዲስ ሰርቨር ያዛውሩ ወይም መረጃዎን ያውርዱ።",
+                    "button": "መለያ አዛውር"
                 },
-                "title": "Actions",
+                "title": "እርምጃዎች",
                 "logoutAllDevices": {
-                    "title": "End All Sessions",
-                    "text": "This will sign you out from all devices linked to your account.",
-                    "button": "Log Out of All Devices"
+                    "title": "ሁሉንም ክፍለ-ጊዜዎች ዝጋ",
+                    "text": "ይህ ከመለያዎ ጋር ከተገናኙ ሁሉም መሳሪያዎች ያስወጣዎታል።",
+                    "button": "ከሁሉም መሳሪያዎች ውጣ"
                 }
             },
             "devices": {
-                "deviceNameLabel": "Device name",
-                "failed": "Failed to load sessions",
-                "removeDevice": "Remove",
-                "title": "Devices"
+                "deviceNameLabel": "የመሳሪያ ስም",
+                "failed": "ክፍለ-ጊዜዎችን መጫን አልተቻለም",
+                "removeDevice": "መሳሪያ አስወግድ",
+                "title": "መሳሪያዎች"
             },
             "profile": {
-                "finish": "Finish editing",
-                "firstColor": "Profile color one",
-                "secondColor": "Profile color two",
-                "title": "Edit profile picture",
-                "userIcon": "User icon"
+                "finish": "ማስተካከል ጨርስ",
+                "firstColor": "የመገለጫ ቀለም አንድ",
+                "secondColor": "የመገለጫ ቀለም ሁለት",
+                "title": "የመገለጫ ስዕል አስተካክል",
+                "userIcon": "የተጠቃሚ አዶ"
             },
             "register": {
-                "cta": "Get started",
-                "text": "Share your watch progress between devices and keep them synced. ( ̧⸝⸝⍢⸝⸝)ෆ",
-                "title": "Sync to the Cloud"
+                "cta": "ጀምር",
+                "text": "የእይታ እድገትዎን በመሳሪያዎች መካከል ያጋሩ እና እንዲመሳሰሉ ያድርጓቸው። ( ̧⸝⸝⍢⸝⸝)ෆ",
+                "title": "ከክላውድ ጋር አመሳስል"
             },
-            "title": "Account"
+            "title": "መለያ"
         },
         "appearance": {
-            "activeTheme": "Active",
+            "activeTheme": "የነቃ ገጽታ",
             "themes": {
-                "blue": "Blue",
-                "default": "Default",
-                "gray": "Gray",
-                "red": "Red",
-                "teal": "Teal",
-                "classic": "Classic",
-                "green": "Green",
-                "mocha": "Mocha",
-                "pink": "Pink",
-                "noir": "Noir",
-                "ember": "Ember",
-                "acid": "Acid",
-                "spark": "Spark",
-                "grape": "Grape",
-                "spiderman": "Spiderman",
-                "forest": "Forest",
-                "wolverine": "Wolverine",
-                "popsicle": "Popsicle",
-                "hulk": "Hulk"
+                "blue": "ሰማያዊ",
+                "default": "ነባሪ",
+                "gray": "ግራጫ",
+                "red": "ቀይ",
+                "teal": "ቲል",
+                "classic": "ክላሲክ",
+                "green": "አረንጓዴ",
+                "mocha": "ሞካ",
+                "pink": "ሮዝ",
+                "noir": "ኗር",
+                "ember": "ኤምበር",
+                "acid": "አሲድ",
+                "spark": "ስፓርክ",
+                "grape": "ወይን",
+                "spiderman": "ሸረሪት-ሰው",
+                "forest": "ደን",
+                "wolverine": "ዎልቨሪን",
+                "popsicle": "ፖፕሲክል",
+                "hulk": "ሀልክ"
             },
-            "title": "Appearance",
+            "title": "ገጽታ",
             "options": {
-                "discover": "Discover section",
-                "discoverDescription": "Show the Discover section on the Homepage below your bookmarked media. Enabled by default.",
-                "discoverLabel": "Discover section",
-                "modal": "Details modal",
-                "modalDescription": "Show the details modal when you click on a media card instead of going to the watch page. Proxy or Extension required for trailer. Disabled by default.",
-                "modalLabel": "Details modal"
+                "discover": "የአዳዲስ ነገሮች ክፍል",
+                "discoverDescription": "በዕልባት ካደረጓቸው ሚዲያዎች በታች በመነሻ ገጹ ላይ የአዳዲስ ነገሮች ክፍሉን አሳይ። በነባሪነት የነቃ ነው።",
+                "discoverLabel": "የአዳዲስ ነገሮች ክፍል",
+                "modal": "የዝርዝሮች ሞዳል",
+                "modalDescription": "ወደ እይታ ገጽ ከመሄድ ይልቅ በሚዲያ ካርድ ላይ ሲጫኑ የዝርዝሮች ሞዳሉን አሳይ። ለፊልም ማስታወቂያ ፕሮክሲ ወይም ቅጥያ ያስፈልጋል። በነባሪነት የተሰናከለ ነው።",
+                "modalLabel": "የዝርዝሮች ሞዳል"
             }
         },
         "connections": {
             "server": {
-                "description": "If you would like to connect to a custom backend to store your data, enable this and provide the URL. <0>Instructions.</0>",
-                "label": "Custom server",
-                "urlLabel": "Custom server URL",
+                "description": "መረጃዎን ለማከማቸት ከብጁ የኋላ ክፍል (backend) ጋር መገናኘት ከፈለጉ ይህንን ያንቁ እና URLውን ያቅርቡ። <0>መመሪያዎች።</0>",
+                "label": "ብጁ ሰርቨር",
+                "urlLabel": "የብጁ ሰርቨር URL",
                 "migration": {
-                    "description": "<0>Migrate my data</0> to a new server.",
-                    "link": "Migrate my data"
+                    "description": "<0>መረጃዬን አዛውር</0> ወደ አዲስ ሰርቨር።",
+                    "link": "መረጃዬን አዛውር"
                 },
-                "documentation": "Backend documentation"
+                "documentation": "የኋላ ክፍል (Backend) ሰነድ"
             },
             "setup": {
-                "doSetup": "Do setup",
+                "doSetup": "ማዋቀር አከናውን",
                 "errorStatus": {
-                    "description": "It seems that one or more items in this setup need your attention.",
-                    "title": "Something needs your attention 😱"
+                    "description": "በዚህ ማዋቀሪያ ውስጥ አንድ ወይም ከዚያ በላይ ንጥሎች የእርስዎን ትኩረት የሚሹ ይመስላል።",
+                    "title": "አንድ ነገር የእርስዎን ትኩረት ይፈልጋል 😱"
                 },
-                "itemError": "There is something wrong with this setting. Go through setup again to fix it. (ᴗ_ ᴗ。)",
+                "itemError": "በዚህ ቅንብር ላይ የሆነ ችግር አለ። ለማስተካከል እንደገና በማዋቀሪያው ውስጥ ይለፉ። (ᴗ_ ᴗ。)",
                 "items": {
-                    "default": "Default setup",
-                    "extension": "Extension",
-                    "proxy": "Custom proxy"
+                    "default": "ነባሪ ማዋቀሪያ",
+                    "extension": "ቅጥያ",
+                    "proxy": "ብጁ ፕሮክሲ"
                 },
-                "redoSetup": "Redo setup",
+                "redoSetup": "ማዋቀር እንደገና አከናውን",
                 "successStatus": {
-                    "description": "All things are in place for you to start watching your favorite media. (๑>◡<๑)",
-                    "title": "Everything is set up!"
+                    "description": "የሚወዷቸውን ሚዲያዎች መመልከት እንዲጀምሩ ሁሉም ነገሮች በቦታቸው ላይ ናቸው። (๑>◡<๑)",
+                    "title": "ሁሉም ነገር ተዋቅሯል!"
                 },
                 "unsetStatus": {
-                    "description": "Please click the button to the right to start the setup process.",
-                    "title": "You haven't gone through setup"
+                    "description": "የማዋቀሪያ ሂደቱን ለመጀመር እባክዎ በቀኝ በኩል ያለውን ቁልፍ ይጫኑ።",
+                    "title": "በማዋቀሪያው ውስጥ አላለፉም"
                 }
             },
-            "title": "Connections",
+            "title": "ግንኙነቶች",
             "workers": {
-                "addButton": "Add new worker",
-                "description": "To make the application function, all traffic is routed through proxies. Enable this if you want to bring your own workers. <0>Instructions.</0>",
-                "documentation": "Proxy documentation",
-                "emptyState": "No workers yet (｡•́︿•̀｡), add one below",
-                "label": "Use custom proxy workers",
-                "urlLabel": "Worker URLs",
+                "addButton": "አዲስ ሰራተኛ (worker) ጨምር",
+                "description": "መተግበሪያው እንዲሰራ ለማድረግ ሁሉም ትራፊክ በፕሮክሲዎች በኩል ያልፋል። የራስዎን ሰራተኞች (workers) ማምጣት ከፈለጉ ይህንን ያንቁ። <0>መመሪያዎች።</0>",
+                "documentation": "የፕሮክሲ ሰነድ",
+                "emptyState": "እስካሁን ምንም ሰራተኞች (workers) የሉም (｡•́︿•̀｡)፣ ከታች አንዱን ይጨምሩ",
+                "label": "ብጁ የፕሮክሲ ሰራተኞችን (workers) ተጠቀም",
+                "urlLabel": "የሰራተኛ (Worker) URLs",
                 "urlPlaceholder": "https://",
                 "proxyTMDB": {
-                    "title": "Proxy TMDB",
-                    "description": "Only needed if you can't access TheMovieDB directly, such as if your ISP blocks it. It is recomended to disable the Discover secton to improve performance with this."
+                    "title": "ፕሮክሲ TMDB",
+                    "description": "የሚያስፈልገው TheMovieDBን በቀጥታ ማግኘት ካልቻሉ ብቻ ነው፤ ለምሳሌ የእርስዎ ISP ከዘጋው። በዚህ ጊዜ አፈጻጸምን ለማሻሻል የአዳዲስ ነገሮች ክፍሉን ማሰናከል ይመከራል።"
                 }
             }
         },
         "preferences": {
-            "language": "Application language",
-            "languageDescription": "Language applied to the entire application, only English has silly stuff 🙁.",
-            "thumbnail": "Generate thumbnails",
-            "thumbnailDescription": "Most of the time, videos don't have thumbnails. You can enable this setting to generate them on the fly but they can make your video slower.",
-            "thumbnailLabel": "Generate thumbnails",
-            "autoplay": "Autoplay",
-            "autoplayDescription": "Automatically play the next episode in a series after reaching the end. Can be enabled by users with the browser extension, a custom proxy, or with the default setup if allowed by the host.",
-            "autoplayLabel": "Autoplay",
-            "skipCredits": "Skip End Credits",
-            "skipCreditsDescription": "When enabled, automatically play the next episode at 99% completion to skip end credits. When disabled, wait until the episode is fully completed.",
-            "skipCreditsLabel": "Skip end credits",
-            "sourceOrder": "Reordering sources",
-            "sourceOrderDescription": "Drag and drop to reorder sources. This will determine the order in which sources are checked for the media you are trying to watch. If a source is greyed out, it means the <bold>extension</bold> is required for that source. <br><br> <strong>(The default order is best for most users)</strong>",
-            "title": "Preferences",
-            "sourceOrderEnableLabel": "Custom source order"
+            "language": "የመተግበሪያ ቋንቋ",
+            "languageDescription": "በመላው መተግበሪያ ላይ የሚተገበር ቋንቋ፤ እንግሊዝኛ ብቻ አስቂኝ ነገሮች አሉት 🙁።",
+            "thumbnail": "ጥፍር-ምስል (thumbnails) ፍጠር",
+            "thumbnailDescription": "ብዙውን ጊዜ ቪዲዮዎች ጥፍር-ምስል (thumbnails) የላቸውም። ይህን ቅንብር በማንቃት በሂደት ላይ እንዲፈጥራቸው ማድረግ ይችላሉ፤ ነገር ግን ቪዲዮዎን ሊያዘገዩ ይችላሉ።",
+            "thumbnailLabel": "ጥፍር-ምስል (thumbnails) ፍጠር",
+            "autoplay": "ራስ-ሰር ማጫወት",
+            "autoplayDescription": "ተከታታይ ክፍል መጨረሻ ላይ ሲደርሱ ቀጣዩን ክፍል በራስ-ሰር ያጫውቱ። የአሳሽ ቅጥያ፣ ብጁ ፕሮክሲ ባላቸው ተጠቃሚዎች ወይም በአስተናጋጁ ከተፈቀደ በነባሪ ማዋቀሪያ ማንቃት ይቻላል።",
+            "autoplayLabel": "ራስ-ሰር ማጫወት",
+            "skipCredits": "የመጨረሻ ምስጋናዎችን ዝለል",
+            "skipCreditsDescription": "ሲነቃ፣ የመጨረሻ ምስጋናዎችን ለመዝለል በ99% ሲጠናቀቅ ቀጣዩን ክፍል በራስ-ሰር ያጫውቱ። ሲሰናከል፣ ክፍሉ ሙሉ በሙሉ እስኪጠናቀቅ ይጠብቁ።",
+            "skipCreditsLabel": "የመጨረሻ ምስጋናዎችን ዝለል",
+            "sourceOrder": "ምንጮችን እንደገና መደርደር",
+            "sourceOrderDescription": "ምንጮችን እንደገና ለመደርደር ጎትተው ይጣሉ። ይህ ለመመልከት የሚሞክሩትን ሚዲያ ምንጮች በምን ቅደም ተከተል እንደሚፈተሹ ይወስናል። ምንጭ ግራጫ ከወጣ፣ ለዚያ ምንጭ <bold>ቅጥያ</bold> ያስፈልጋል ማለት ነው። <br><br> <strong>(ነባሪው ቅደም ተከተል ለአብዛኞቹ ተጠቃሚዎች ምርጥ ነው)</strong>",
+            "title": "ምርጫዎች",
+            "sourceOrderEnableLabel": "ብጁ የምንጭ ቅደም ተከተል"
         },
-        "reset": "Reset",
-        "save": "Save",
+        "reset": "ዳግም አስጀምር",
+        "save": "አስቀምጥ",
         "sidebar": {
             "info": {
-                "appVersion": "App version",
-                "backendUrl": "Backend URL",
-                "backendVersion": "Backend version",
-                "hostname": "Hostname",
-                "insecure": "Insecure",
-                "notLoggedIn": "You are not logged in",
-                "secure": "Secure",
-                "title": "App stats",
-                "unknownVersion": "Unknown",
-                "userId": "User ID"
+                "appVersion": "የመተግበሪያ ስሪት",
+                "backendUrl": "የኋላ ክፍል (Backend) URL",
+                "backendVersion": "የኋላ ክፍል (Backend) ስሪት",
+                "hostname": "የአስተናጋጅ ስም",
+                "insecure": "ደህንነቱ ያልተጠበቀ",
+                "notLoggedIn": "አልገቡም",
+                "secure": "ደህንነቱ የተጠበቀ",
+                "title": "የመተግበሪያ ስታቲስቲክስ",
+                "unknownVersion": "ያልታወቀ",
+                "userId": "የተጠቃሚ መለያ"
             }
         },
         "subtitles": {
-            "backgroundLabel": "Background opacity",
-            "backgroundBlurLabel": "Background blur",
-            "colorLabel": "Color",
-            "previewQuote": "Convinced life is meaningless, I lack the courage of my conviction.",
-            "textSizeLabel": "Text size",
-            "title": "Subtitles",
-            "textBoldLabel": "Bold text",
-            "verticalPositionLabel": "Vertical position",
-            "default": "Default",
-            "low": "Low",
+            "backgroundLabel": "የዳራ ግልጽነት",
+            "backgroundBlurLabel": "የዳራ መደብዘዝ",
+            "colorLabel": "ቀለም",
+            "previewQuote": "ህይወት ትርጉም የለሽ መሆኗን አምኜ፣ የእምነቴን ድፍረት አጣሁ።",
+            "textSizeLabel": "የጽሑፍ መጠን",
+            "title": "የትርጉም ጽሑፎች",
+            "textBoldLabel": "ደማቅ ጽሑፍ",
+            "verticalPositionLabel": "አቀባዊ አቀማመጥ",
+            "default": "ነባሪ",
+            "low": "ዝቅተኛ",
             "textStyle": {
-                "title": "Text style",
-                "default": "Default",
-                "raised": "Raised",
-                "depressed": "Depressed",
-                "uniform": "Uniform",
-                "dropShadow": "Drop Shadow"
+                "title": "የጽሑፍ ስልት",
+                "default": "ነባሪ",
+                "raised": "ከፍ ያለ",
+                "depressed": "ዝቅ ያለ",
+                "uniform": "ወጥ",
+                "dropShadow": "የጥላ ውጤት"
             }
         },
-        "unsaved": "You have unsaved changes... ฅ^•ﻌ•^ฅ"
+        "unsaved": "ያልተቀመጡ ለውጦች አሉዎት... ฅ^•ﻌ•^ฅ"
     },
     "discover": {
         "tabs": {
-            "movies": "Movies",
-            "tvshows": "TV Shows",
-            "editorpicks": "Editor Picks"
+            "movies": "ፊልሞች",
+            "tvshows": "የቴሌቪዥን ፕሮግራሞች",
+            "editorpicks": "የአርታዒ ምርጫዎች"
         },
         "carousel": {
             "title": {
-                "movies": "{{category}} Movies",
-                "tvshows": "{{category}} Shows",
-                "inCinemas": "In Cinemas",
-                "popularOn": "Popular {{type}} on {{provider}}",
-                "editorPicks": "Editor Picks"
+                "movies": "{{category}} ፊልሞች",
+                "tvshows": "{{category}} ፕሮግራሞች",
+                "inCinemas": "በሲኒማ ቤቶች",
+                "popularOn": "በ{{provider}} ላይ ተወዳጅ {{type}}",
+                "editorPicks": "የአርታዒ ምርጫዎች"
             }
         },
         "providers": {
-            "netflix": "Netflix",
-            "appleTv": "Apple TV+",
-            "amazonPrime": "Amazon Prime Video",
-            "hulu": "Hulu",
-            "max": "Max",
-            "paramountPlus": "Paramount Plus",
-            "disneyPlus": "Disney Plus",
-            "shudder": "Shudder",
-            "fubuTV": "fubuTV"
+            "netflix": "ኔትፍሊክስ",
+            "appleTv": "አፕል ቲቪ+",
+            "amazonPrime": "አማዞን ፕራይም ቪዲዮ",
+            "hulu": "ሁሉ",
+            "max": "ማክስ",
+            "paramountPlus": "ፓራማውንድ ፕላስ",
+            "disneyPlus": "ዲስኒ ፕላስ",
+            "shudder": "ሸደር",
+            "fubuTV": "ፉቡቲቪ"
         },
         "randomMovie": {
-            "button": "Watch Something Random",
-            "cancel": "Cancel Countdown",
-            "countdown": "{{countdown}}s",
-            "nowPlaying": "Now Playing",
-            "in": "in"
+            "button": "በዘፈቀደ የሆነ ነገር ይመልከቱ",
+            "cancel": "ቆጠራ ሰርዝ",
+            "countdown": "{{countdown}}ሰ",
+            "nowPlaying": "አሁን በመጫወት ላይ",
+            "in": "ውስጥ"
         },
         "page": {
-            "title": "Discover Movies & TV",
-            "subtitle": "Explore the latest hits and timeless classics."
+            "title": "ፊልሞችን እና የቴሌቪዥን ፕሮግራሞችን ያግኙ",
+            "subtitle": "የቅርብ ጊዜ ተወዳጆችን እና ጊዜ የማይሽራቸው ክላሲኮችን ያስሱ።"
         },
-        "scrollToTop": "Back to top"
+        "scrollToTop": "ወደ ላይ ተመለስ"
     },
     "fedapi": {
         "onboarding": {
-            "title": "FED API (Private) token",
-            "description": "Bring your own FREE Febbox account to gain access to FED API (Private), the best source with 4K quality, Dolby Atmos, skip intro and the fastest load times! Highly recommended option!"
+            "title": "FED API (የግል) ቶክን",
+            "description": "የራስዎን ነፃ የFebbox መለያ በማምጣት ለFED API (የግል) መዳረሻ ያግኙ፤ ይህም 4K ጥራት፣ Dolby Atmos፣ የመግቢያ መዝለል እና ፈጣን የመጫኛ ጊዜዎች ያለው ምርጥ ምንጭ ነው! በጣም የሚመከር አማራጭ!"
         },
         "setup": {
-            "title": "To get your UI token:",
-            "showVideo": "Show Video Tutorial",
-            "hideVideo": "Hide Video Tutorial",
+            "title": "የእርስዎን UI ቶክን ለማግኘት:",
+            "showVideo": "የቪዲዮ ማጠናከሪያ አሳይ",
+            "hideVideo": "የቪዲዮ ማጠናከሪያ ደብቅ",
             "step": {
-                "1": "1. Go to <0>febbox.com</0> and log in with Google (use a fresh account!)",
-                "2": "2. Open DevTools or inspect the page",
-                "3": "3. Go to Application tab → Cookies",
-                "4": "4. Copy the 'ui' cookie.",
-                "5": "5. Close the tab, but do NOT logout!",
-                "warning": "(Do not share this token!)"
+                "1": "1. ወደ <0>febbox.com</0> ይሂዱ እና በGoogle ይግቡ (አዲስ መለያ ይጠቀሙ!)",
+                "2": "2. DevToolsን ይክፈቱ ወይም ገጹን ይመርምሩ",
+                "3": "3. ወደ የመተግበሪያ ትር → ኩኪዎች ይሂዱ",
+                "4": "4. 'ui' የሚለውን ኩኪ ይቅዱ።",
+                "5": "5. ትሩን ዝጉት፤ ነገር ግን አይውጡ!",
+                "warning": "(ይህን ቶክን ለማንም አያጋሩ!)"
             }
         },
         "status": {
-            "success": "success",
-            "api_down": "Cannot reach FED API!",
-            "invalid_token": "Failed to fetch a 'VIP' stream. Your token is invalid!"
+            "success": "ስኬት",
+            "api_down": "FED APIን ማግኘት አልተቻለም!",
+            "invalid_token": "'VIP' ስርጭት ማምጣት አልተቻለም። ቶክንዎ ትክክል አይደለም!"
         }
     },
     "watchParty": {
         "status": {
-            "inSync": "In sync",
-            "outOfSync": "Out of sync"
+            "inSync": "የተመሳሰለ",
+            "outOfSync": "ያልተመሳሰለ"
         },
-        "alone": "Alone",
-        "withCount": "With {{count}} others",
-        "isHost": "Hosting on <0>{{backendName}}</0>",
-        "isGuest": "Watching as a guest on <0>{{backendName}}</0>",
-        "hosting": "Hosting",
-        "watching": "Watching",
-        "syncing": "Syncing...",
-        "behindHost": "Behind host by {{seconds}} seconds",
-        "aheadOfHost": "Ahead of host by {{seconds}} seconds",
-        "showStatusOverlay": "Show status overlay",
-        "leaveWatchParty": "Leave Watch Party",
-        "shareCode": "Share this code with friends (click to copy)",
-        "connectedAsGuest": "Connected to watch party as guest",
-        "hostParty": "Host a Watch Party",
-        "joinParty": "Join a Watch Party",
-        "viewers": "Viewers ({{count}})",
-        "copyCode": "Click to copy",
-        "join": "Join",
-        "cancel": "Cancel",
-        "save": "Save",
-        "emptyRoom": "No one is in this room yet",
-        "invalidRoom": "Unable to connect to this room",
-        "contentMismatch": "Cannot join watch party: The content does not match the host's content.",
-        "episodeMismatch": "Cannot join watch party: You are watching a different episode than the host.",
-        "validating": "Validating watch party..."
+        "alone": "ብቻ",
+        "withCount": "ከ{{count}} ሌሎች ጋር",
+        "isHost": "በ <0>{{backendName}}</0> ላይ በማስተናገድ ላይ",
+        "isGuest": "በ <0>{{backendName}}</0> ላይ እንደ እንግዳ በመመልከት ላይ",
+        "hosting": "በማስተናገድ ላይ",
+        "watching": "በመመልከት ላይ",
+        "syncing": "በማመሳሰል ላይ...",
+        "behindHost": "ከአስተናጋጁ በ{{seconds}} ሰከንዶች ወደ ኋላ",
+        "aheadOfHost": "ከአስተናጋጁ በ{{seconds}} ሰከንዶች ወደ ፊት",
+        "showStatusOverlay": "የሁኔታ መሸፈኛ አሳይ",
+        "leaveWatchParty": "የጋራ እይታን ውጣ",
+        "shareCode": "ይህን ኮድ ለጓደኞች ያጋሩ (ለመቅዳት ይጫኑ)",
+        "connectedAsGuest": "ከጋራ እይታ ጋር እንደ እንግዳ ተገናኝቷል",
+        "hostParty": "የጋራ እይታ አስተናግድ",
+        "joinParty": "የጋራ እይታ ተቀላቀል",
+        "viewers": "ተመልካቾች ({{count}})",
+        "copyCode": "ለመቅዳት ይጫኑ",
+        "join": "ተቀላቀል",
+        "cancel": "ሰርዝ",
+        "save": "አስቀምጥ",
+        "emptyRoom": "በዚህ ክፍል ውስጥ እስካሁን ማንም የለም",
+        "invalidRoom": "ከዚህ ክፍል ጋር መገናኘት አልተቻለም",
+        "contentMismatch": "የጋራ እይታን መቀላቀል አይቻልም፦ ይዘቱ ከአስተናጋጁ ይዘት ጋር አይዛመድም።",
+        "episodeMismatch": "የጋራ እይታን መቀላቀል አይቻልም፦ ከአስተናጋጁ የተለየ ክፍል እየተመለከቱ ነው።",
+        "validating": "የጋራ እይታን በማረጋገጥ ላይ..."
     }
 }
